@@ -189,7 +189,6 @@ def checkmate(board):
             return
     for i in rook_attack(position,rows,board_list):
         if(position["K"][0] == i):
-            print(position["K"][0])
             print("Success")
             return
     for i in bishop_attack(position,rows,board_list):
